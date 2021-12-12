@@ -1,0 +1,216 @@
+body{
+    width: 95%;
+    background-color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat:no-repeat;
+    }
+
+    /*profile-section*/
+    
+    #profile-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 100px 100px;
+    }
+    
+    #profile-picture{
+        width:250px;
+        margin-right:60px;
+        margin-top:5px;
+        border-radius:60px;
+    }
+    .introduction{
+        margin-top:50px;
+    }
+    .introduction>h2{
+        margin:0px;
+        font-family:'Montserrat', sans-serif;
+        font-size: 30px;
+    }
+    .introduction>p{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 150;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    hr {
+        width:500px;
+        color:gray;
+        border:thin;
+        }
+
+    /* dashboard */
+    .dashboard{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 200px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+    }
+    
+    .korean-comment{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 35px;
+    }
+    
+    .sample{
+        background-color: pink;
+        -webkit-text-stroke: 1px black;
+    }
+    
+    .sample:hover{
+        background-color: transparent;
+        color: white;
+        -webkit-text-stroke: 1px black;
+        transition: none;
+    }
+    
+    .highlight{
+        color: white;
+        -webkit-text-stroke: 1px black;
+    }
+    
+    .highlight:hover{
+        background-color: pink;
+        color: black;
+        transition: none;
+    }
+    
+    .type1:hover{
+        background-color: yellowgreen;
+    }
+    
+    .type2:hover{
+        background-color: skyblue;
+    }
+    
+    .type3:hover{
+        background-color: orange;
+    }
+
+    /*real profile*/
+    #real-profile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    
+        margin: 50px 100px;
+    }
+    
+    #profile-picture{
+            width:330px;
+            margin-right:60px;
+            margin-top:200px;
+            border-radius:60px;
+    }
+    .introduction{
+        margin-top:200px;
+    }
+    .introduction>h3{
+        margin:0px;
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 35px;
+    }
+    .introduction>p{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 330;
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    #capability{
+        font-family:'Montserrat',sans-serif;
+        font-weight:330;
+        font-size:20px;
+        font-style: italic;
+        line-height: 30px;
+    }
+
+/*character*/
+    #character{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: center;
+        margin-top: 20px;
+        margin-left:250px;
+        align-items:center;
+    }
+    
+    #character-picture{
+            width:330px;
+            margin-left:60px;
+            margin-top:180px;
+            border-radius:60px;
+    }
+    #move{
+        width:9cm;
+        float:right;
+        margin-right: 150px;
+        margin-top: 13px;
+
+        
+    }
+    .explain{
+        margin-top:200px;
+    }
+    .explain>h3{
+        margin:0px;
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 35px;
+    }
+    .explain>p{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 500;
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+
+    /*hobby*/
+    #hobby{
+      
+        width: 700px;
+        margin: 10px auto;
+    }
+    
+    #hobby-picture1{
+            width:330px;
+
+            border-radius:60px;
+            float: left;
+   
+    }
+    #hobby-picture2{
+        width:330px;
+        border-radius:60px;
+        float: right;
+        margin-left:5%;
+
+    }
+    #hobby2>p{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 750;
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+
+
+    #footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 400px;
+        margin-top: 200px;
+    }
+    
+    .contact{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 40px;
+    }

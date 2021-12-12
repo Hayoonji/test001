@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    background-color:skyblue;
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat:no-repeat;
+    }
+
+    #esfj-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 100px 100px;
+    }
+    
+    #esfj-picture{
+        width:500px;
+        margin-top:5px;
+        border-radius:45px;
+    }
+    /*about-esfj section*/
+ 
+
+    #about-esfj{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top:300px;
+        margin-bottom:300px;
+    }
+    
+    #aboutesfj-picture{
+        width:100%;
+        margin-top:5px;
+
+    }
+
+    /*bingo section*/
+    #esfj-bingo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 400px;
+        margin-top: 200px;
+    }
+    .bingo{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 40px;
+    }
+    #bingo-picture{
+        width:500px;
+        margin-top:5px;
+        border-radius:45px;
+    }
+
